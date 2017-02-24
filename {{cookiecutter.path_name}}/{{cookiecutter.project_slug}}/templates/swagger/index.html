@@ -35,7 +35,7 @@
         window.SwaggerTranslator.translate();
       }
       window.swaggerUi = new SwaggerUi({
-        url: "{{version}}",
+        url: "{{ cookiecutter.git_repo }}",
         dom_id: "swagger-ui-container",
         supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
         onComplete: function(swaggerApi, swaggerUi){
