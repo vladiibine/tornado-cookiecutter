@@ -7,5 +7,6 @@
     "version": "0.1.0",
     "author": "",
     "repo": "",
-    "travis_url": "luizalabs/{{ cookiecutter.path_name }}"
+    "travis_url": "vladiibine/{{ cookiecutter.path_name }}",
+    "git_repo":  "vladiibine/{{ cookiecutter.path_name }}"
 }
